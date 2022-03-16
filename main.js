@@ -4,16 +4,12 @@ const addBtn = document.querySelector(`.btn-add`)
 const ulList = document.querySelector(`.todolist ul`);
 let newTodo
 
-
-
 const addNewTask = () => {
-    if(todoInput.value !== ``) {
+    if (todoInput.value !== ``) {
         newTodo = document.createElement(`li`);
         newTodo.textContent = todoInput.value;
         createToolsLi()
-
         ulList.append(newTodo)
-
         todoInput.value = ``;
         errorInfo.textContent = ``;
     } else {
@@ -41,8 +37,21 @@ const createToolsLi = () => {
     toolsPanel.append(completeButton, editButton, deleteButton);
 }
 
-addBtn.addEventListener(`click`, addNewTask)
+const checkClick = e => {
+    if(e.target.matches(`.complete`)) {
+        e.target.closest(`li`).classList.toggle(`completed`);
+        e.target.classList.toggle(`completed`)
 
+    } else if (e.target.matches(`.edit`)) {
+        console.log(`edit`)
+
+    } else if (e.target.matches(`.delete`)) {
+        console.log(`delete`)
+    }
+}
+
+addBtn.addEventListener(`click`, addNewTask)
+ulList.addEventListener(`click`, checkClick)
 
 
 
