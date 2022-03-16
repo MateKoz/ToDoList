@@ -5,7 +5,7 @@ To Do List
 <h3 align="center">Description:</h3>
 <h6 align="center">
 A simple web application that allows you to enter daily tasks to be performed during the day. Each task can be edited, deleted or terminated at any time. </h6>
-
+<br>
 <img src="https://i.ibb.co/T45X7nM/todolist.png" alt="todolist">
 
 
