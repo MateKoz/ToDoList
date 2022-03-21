@@ -12,15 +12,9 @@ A simple web application that allows you to enter daily tasks to be performed du
 
 ## Tech/framework used 🔧
 
-###1.JavaScript <img align="center" alt="Marc-Js" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-<<<<<<< HEAD
-###2. HTML / CSS <img align="center" alt="Marc-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img align="center" alt="Marc-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-=======
+### 1.JavaScript <img align="center" alt="Marc-Js" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 
-###2. HTML / CSS <img align="center" alt="Marc-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> 
-<img align="center" alt="Marc-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
->>>>>>> a03c6c992aca6819973ede7fd6d7651e4f68294b
-
+### 2. HTML / CSS <img align="center" alt="Marc-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img align="center" alt="Marc-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 
 
 ## Live 📍
